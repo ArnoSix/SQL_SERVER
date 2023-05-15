@@ -1,0 +1,6 @@
+open 192.168.41.128
+user ftpuser ftpuser
+cd /home/ftpuser/ftp/files
+mput "C:\Users\Jesus\OneDrive\Escritorio\Dato\*.*"
+
+quit
