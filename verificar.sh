@@ -1,6 +1,6 @@
 #!/bin/bash
 
-directorio="/ruta/al/directorio"  # Reemplaza "/ruta/al/directorio" con la ruta real del directorio que deseas verificar
+directorio="/home/ftpuser/ftp/files"  # Reemplaza "/ruta/al/directorio" con la ruta real del directorio que deseas verificar
 
 if [ -d "$directorio" ]; then
     archivos_csv=$(find "$directorio" -maxdepth 1 -type f -name "*.csv")
