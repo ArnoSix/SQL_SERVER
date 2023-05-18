@@ -1,2 +1,2 @@
-create user ftpuser indentified by ftpuser;
+create user ftpuser identified by ftpuser;
 grant connect, dba to ftpuser;
