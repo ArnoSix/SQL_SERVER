@@ -1,0 +1,63 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Thu May 18 11:51:12 2023
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   carga_csv.ctl
+Data File:      v_productos.csv
+  Bad File:     v_productos.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table ADVENTUREWORK2019, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   ,       CHARACTER            
+PRODUCTO                             NEXT     *   ,       CHARACTER            
+NUMERO_PRODUCTO                      NEXT     *   ,       CHARACTER            
+UBICACION                            NEXT     *   ,       CHARACTER            
+DESCRIPCION                          NEXT     *   ,       CHARACTER            
+HORA                                 NEXT     *   ,       CHARACTER            
+
+Record 5: Rejected - Error on table ADVENTUREWORK2019, column PRODUCTO.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 6: Rejected - Error on table ADVENTUREWORK2019, column PRODUCTO.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 1: Rejected - Error on table ADVENTUREWORK2019, column ID.
+ORA-01722: invalid number
+
+Record 2: Rejected - Error on table ADVENTUREWORK2019, column ID.
+ORA-01722: invalid number
+
+
+Table ADVENTUREWORK2019:
+  2 Rows successfully loaded.
+  4 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 387000 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             6
+Total logical records rejected:         4
+Total logical records discarded:        0
+
+Run began on Thu May 18 11:51:12 2023
+Run ended on Thu May 18 11:51:15 2023
+
+Elapsed time was:     00:00:02.55
+CPU time was:         00:00:00.18

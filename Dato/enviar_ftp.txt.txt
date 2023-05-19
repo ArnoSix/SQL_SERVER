@@ -1,0 +1,7 @@
+open 192.168.139.132
+user ftpuser ftpuser
+put "C:\Users\Jesus\Desktop\Dato\*.csv*"
+
+pause 
+
+quit

@@ -1,0 +1,32 @@
+
+grant connect to jabello
+grant resource to jabello
+alter user jabello quota 100M on trabajo01
+
+
+
+select * from adventurework2019
+
+delete from adventurework2019
+
+insert into adventurework2019 (id, producto, 
+numero_producto, ubicacion, descripcion)
+values 
+('66', 'ropa', '1234', 'casa', 'usada');
+
+
+grant connect to jabello
+grant resource to jabello
+grant usuario01 to jabello
+
+create role usuario01
+
+grant all privileges to usuario01
+
+
+
+alter user jabello quota 100M on trabajo01
+
+select * from adventurework2019
+
+
