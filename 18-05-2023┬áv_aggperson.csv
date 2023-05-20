@@ -1,0 +1,2 @@
+Msg 229, Level 14, State 5, Server DESKTOP-6VL52AU, Line 1
+The SELECT permission was denied on the object 'v_aggperson', database 'AdventureWorks2019', schema 'dbo'.
