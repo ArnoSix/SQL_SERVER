@@ -10,3 +10,5 @@ CREATE TABLE adventurework2019 (
   numero_de_telefono varchar(50)
   fecha date  
 );
+
+alter user jabello quota 100M on trabajo01
