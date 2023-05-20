@@ -5,10 +5,8 @@ hora varchar(20))
      
 CREATE TABLE adventurework2019 (
   id int,
-  producto varchar(50)
-  numero_producto varchar(25)
-  ubicacion varchar(50)
-  descripcion varchar(400)
-  fecha date
-  
-)
+  nombre varchar(50)
+  direccion varchar(25)
+  numero_de_telefono varchar(50)
+  fecha date  
+);
